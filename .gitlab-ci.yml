@@ -1,0 +1,20 @@
+stages:
+ - build
+
+BuildAndDeploy:
+ stage: build
+ script:
+  - echo "Runner's working directory ..." && pwd
+  - gradle build
+  - echo "Project directory after build ..." && ls
+  - echo "Remote copying build artifacts to the production server ..."
+  - scp -i /home/gitlab-runner/.ssh/id_rsa -r ./build/libs/* csse@371-1-d-prod:public_html/
+  - cp ./build/libs/* ./html/
+  - scp -i /home/gitlab-runner/.ssh/id_rsa -r ./html/* csse@371-1-d-prod:front_html/
+  - crxmake --pack-extension=html --extension-output=crx/ClickBake.crx
+  - scp -i /home/gitlab-runner/.ssh/id_rsa -r ./crx/ClickBake.crx csse@371-1-d-prod:public_html/
+  - echo "All done, cleaning the project directory ..."
+  - gradle clean
+ only:
+  - master
+ tags:

@@ -1,0 +1,23 @@
+Testing the functionality of the website manually:
+
+Procedure:
+1. Go to 371-1-d-prod.csse.rose-hulman.edu/html
+2. Login with an existing account
+3. Set my address, credit card.
+4. Set allergens and brand preferences.
+5. Click "Sign Out" on the preferences page to sign out.
+
+Expected Results:
+1. Successfully go to the ClickBake page.
+2. When a sign in is successful you should be taken to a Prefernces page.
+3. After setting my address it should tell me that it was submitted.  Clicking back to preferences should take me back.
+3. After setting my credit card information it should tell me it was submitted.  Clicking back to preferences should take me back.
+4. Whenever I add an allergen or brand it should be displayed in the are above the box.
+5. Clicking Signout then should sign me out.
+
+Actual Results:
+1. Successfully signed in and saw the expected page.
+2. Saw the preferences page.
+3. Was able to set my address and credit card and I was notified when a change was made to card or address.
+4. Allergens and brands both show up in the space above the box.
+5. Clicking Signout Signs me out.

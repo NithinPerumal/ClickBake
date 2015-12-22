@@ -1,0 +1,38 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.5
+version = '1.0'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'API tests',
+                   'Implementation-Version': version
+    }
+}
+
+repositories {
+    mavenCentral()
+    flatDir {
+    	dirs 'lib'
+    }
+}
+
+dependencies {
+    compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
+    compile name: 'jsoup-1.8.3'
+	compile name: 'mysql-connector-java-5.1.37-bin'
+	compile name: 'jtidy-r938'
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+}
+
+test {
+    systemProperties 'property': 'value'
+}
+
+uploadArchives {
+    repositories {
+       flatDir {
+           dirs 'repos'
+       }
+    }
+}

@@ -1,0 +1,54 @@
+body {
+	background-image: url("background_1.png");
+	/*background-color: grey;*/
+}
+div.main {
+	background-color: rgb(250,250,250);
+	background-color: rgba(250,250,250,.9);
+	background-color: white;
+	margin-left: 5em;
+	margin-right: 5em;
+	margin-top: 3em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	/*border-radius: 50px;*/
+	border-style: outset;
+	overflow: hidden;
+}
+h2 {
+	font-style: italic;
+}
+.left {
+	float: left;
+	width: 45%;
+}
+.right {
+	float: right;
+	width: 45%;
+}
+input {
+	margin-bottom: 1em;
+	margin-right: 1em;
+}
+.finalinfo {
+	display: inline-block;
+	width: 300px;
+}
+.finalcategory {
+	display: inline-block;
+	width: 200px;
+}
+#orderbutton, #cancelbutton {
+	margin: 20px;
+}
+.pseudolink {
+	color: blue;
+	text-decoration: underline;
+}
+.pagebutton {
+	background-color: rgba(200,200,256,.9);
+	font-size: 14pt;
+	margin-top: 1em;
+}

@@ -1,0 +1,14 @@
+Note: This is how to set it up for development purposes, there is a way of acutally putting it in the extension store so that normal user can get it
+1) Open Google Chrome
+2) Visit chrome://extensions
+3) Ensure that developer mode is checked in the top right
+4) Click "Load unpacked extension"
+5) Navigate to the html directory of the
+
+To add the packed version (The more normal person way of doing this)
+1) Go to 371-1-d-prod.csse.rose-hulman.edu/csse/
+2) Click on ClickBake.crx
+3) Google Chrome whines at you
+4) Go to chrome://extensions
+5) Click and drag the ClickBake.crx from the bottom up to the middle of the page
+6) Press Accept

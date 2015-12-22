@@ -1,0 +1,57 @@
+Title: Click and Bake
+Category: Epic
+As a fellow lazy person, I want to use minimal effort to aquire the ingredients to bake something
+-Order is confirmed and correct
+-Order is correctly shipped
+-Process requires very few clicks
+
+Title: No Drive to Bake
+Category: Epic
+As an elderly person, I want to easily get food without having to drive
+-Order is confirmed and correct
+-Order is correctly shipped
+-Process requires very few clicks
+
+Title: API Research
+Category: Spike
+As a developer, I want to know how Amazon APIs work and what our options are so that we can make use of them
+-Find APIs
+-See how they work
+-Choose a suitable option
+
+Title: Website Research
+Category: Spike
+As a developer, I want to know how website hold their ingredients list in their webpages and how to parse it so that we can aquire information
+-Look at several websites' code
+-See how recipes are stored on there
+-Determine if we can parse that information directly
+
+Title: Extention button
+Category: Feature
+As a user, I want to press a chrome extension button and a new tab will open with appropriate information regaurding buying the recipse so that I can say "Yes, buy me food"
+-New tab opens when user presses chrome extension
+-New tab knows the information from the recipe page that was open
+
+Title: Credit card information hold
+Category: Feature
+As a user, I want ClickBake to store my credit card information securely so that I do not have to enter it every single time that I want food
+-User can enter credit card information
+-Credit card information is stored
+
+Title: Brand information hold
+Category: Feature
+As a user, I want ClickBake to store my favorite brands so that I do not have to enter it every single time that I want food
+-User can enter favorite brands
+-Brand information is stored
+
+Title: Relational Database
+Category: Technical Feature
+As a webmaster, I want the information to be store in a relational database so that is safe, secure, and easy to deal with
+-Information is stored in relational database
+-Information can be used appropriately
+
+Title: Buttons
+Category: Technical Feature
+As a developer, I want to be able to see the buttons on the extension.
+- I can see buttons
+- Users can also see buttons

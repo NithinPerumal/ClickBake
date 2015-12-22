@@ -1,0 +1,16 @@
+Problem: User choice
+
+Ideas:
+-Preset order of favorite brands
+-Give choice
+-Give no choice
+
+-new tab
+-new windows
+
+Go with:
+New tab
+Have user account, username be as same amazon
+Learn about the API to shape our solution
+
+Preferences separate from ordering

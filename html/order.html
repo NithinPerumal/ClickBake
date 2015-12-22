@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ClickBake</title>
+		<meta charset="utf-8" />
+		<link href="clickbake.css" type="text/css" rel="stylesheet" />
+		<link href="favicon.ico" rel="icon" type="image/x-icon" />
+		<script src="jquery.js"></script>
+		<script src="js-cookie.js"></script>
+		<script src="order.js"></script>
+	</head>
+	<body>
+	<div class="main">
+		<h1>Confirm Order</h1>
+		<div id="login">
+			<h4>Login</h4>
+			Email Address<br />
+			<input id="useremail"><br />
+			Password<br />
+			<input id="userpass" type='password'><br />
+			<button id="signin">Sign In!</button> <button id="signup">Sign Up!</button>
+		</div>
+		<span id="loading">Loading <img src="loading.gif" alt="icon" /></span>
+		<ul id="displayed-ingredients"></ul>
+		<div id="orderset">
+
+			<p>
+			<span class="finalcategory">Selected shipping address:</span>
+			<span class="finalinfo" id="shippingaddress"></span>
+			<img id="loadingaddress" src="loading.gif" alt="icon" />
+			<span id="changeshipping" class="pseudolink">change</span>
+			</p>
+
+			<p>
+			<span class="finalcategory">Selected credit card:</span>
+			<span class="finalinfo" id="ccinfo"></span>
+			<img id="loadingcc" src="loading.gif" alt="icon" />
+			<span id="changecreditcard" class="pseudolink">change</span>
+			</p>
+
+			<button id="orderbutton">Order</button><button id="cancelbutton">Cancel</button>
+		</div>
+		<div id="orderdone">
+			<h2>Food ordered!</h2>
+			<p>In a few hours you will be able to start cooking deliciousness</p>
+			<button id="donebutton">Done!</button>
+		</div>
+	</div>
+	<p class="pseudolink" id="logout">logout</p>
+	</body>
+</html>

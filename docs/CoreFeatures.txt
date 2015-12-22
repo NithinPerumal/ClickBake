@@ -1,0 +1,37 @@
+Feature 1:  Is an extension. [DM] |||| -- Chosen
+Relevant User Story:
+As a lazy person, I want to use minimal effort to aquire the ingredients to bake something
+-Process requires very few clicks
+
+
+Feature 2:  Giving the user multiple options at order time. [DM]  ||
+Relevant User Story:
+As a customer, I want to choose what brands I order.
+-Order gives users brand choices
+
+Feature 3:  Small locations on order page for advertisement. [NP]   |
+Relevant User Story:
+As a college student, I want to see cool new things I could buy online.
+-Advertisements are easily seen.
+
+Feature 4:  Reads the recipe page for ingredients. [JL]    |||| -- Chosen
+Relevant User Story:
+As a student, I want to be able to order food with the click of a button while looking at the ingredients page.
+-Recipe page is read and ingredients are added to the order.
+
+Feature 5:  Stores Amazon account information securely. [DS]    ||| -- Chosen
+Relevant User Story:
+As a old lady, I want my amazon account information to be stored securely so noone can use my details to do terrible things.
+-Account details stored in a secure database.
+
+Feature 6:  Stores preferences and receipts securely. [NP]    ||| -- Chosen
+Relevant User Story:
+As a customer, I want to choose what brands I order.
+-Order gives users brand choices
+
+Feature 7:  Store users' previous orders in a library of sorts so they can access them again. [DS]    ||
+Relevant User Story:
+As a old person, I want to be able to find food I wanted to cook previously.
+-Lets users access old orders to make food again.
+
+
